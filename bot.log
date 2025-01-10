@@ -1,0 +1,9 @@
+2025-01-10 15:20:04,355 - INFO - Запуск бота
+2025-01-10 15:20:04,356 - INFO - Бот запускается
+2025-01-10 15:20:04,356 - INFO - Start polling
+2025-01-10 15:20:04,937 - INFO - Run polling for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
+2025-01-10 15:20:21,417 - INFO - Получена команда /start от пользователя 7934490498
+2025-01-10 15:20:21,948 - INFO - Update id=188274346 is handled. Duration 530 ms by bot id=7236027461
+2025-01-10 15:20:30,978 - INFO - Polling stopped
+2025-01-10 15:20:31,238 - INFO - Polling stopped for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
+2025-01-10 15:20:31,239 - INFO - Остановка бота

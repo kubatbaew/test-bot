@@ -1,0 +1,36 @@
+[
+    {
+        "tg_user_id": 7934490498,
+        "user_data": [
+            {
+                "wlOrder_id": 464044258051069,
+                "use_count": 1
+            },
+            {
+                "wlOrder_id": 1273178164281,
+                "use_count": 1
+            },
+            {
+                "wlOrder_id": 777266109371043,
+                "use_count": 1
+            },
+            {
+                "wlOrder_id": 777266109371043,
+                "use_count": 2
+            },
+            {
+                "wlOrder_id": 777266109371043,
+                "use_count": 3
+            }
+        ]
+    },
+    {
+        "tg_user_id": 129241655,
+        "user_data": [
+            {
+                "wlOrder_id": 464044258051069,
+                "use_count": 1
+            }
+        ]
+    }
+]
