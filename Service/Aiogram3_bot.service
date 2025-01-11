@@ -1,0 +1,16 @@
+[Unit]
+Description=Aiogram3 bot service
+After=multi-user.target
+ 
+[Service]
+User=root
+Group=root
+Type=idle
+Restart=on-failure
+
+EnvironmentFile=/etc/environment
+
+ExecStart=/bin/bash -c 'cd /home/$PROJECT_USER/$PROJECT_NAME/ && source venv/bin/activate && python main.py'
+
+[Install]
+WantedBy=multi-user.target

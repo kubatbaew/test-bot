@@ -7,3 +7,214 @@
 2025-01-10 15:20:30,978 - INFO - Polling stopped
 2025-01-10 15:20:31,238 - INFO - Polling stopped for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
 2025-01-10 15:20:31,239 - INFO - Остановка бота
+2025-01-10 16:56:16,067 - INFO - Запуск бота
+2025-01-10 16:56:16,068 - INFO - Бот запускается
+2025-01-10 16:56:16,069 - INFO - Start polling
+2025-01-10 16:56:16,528 - INFO - Run polling for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
+2025-01-10 16:56:16,657 - INFO - Получена команда /start от пользователя 7934490498
+2025-01-10 16:56:17,052 - INFO - Update id=188274347 is handled. Duration 406 ms by bot id=7236027461
+2025-01-10 16:56:19,184 - INFO - Получена команда /start от пользователя 7934490498
+2025-01-10 16:56:19,350 - INFO - Update id=188274348 is handled. Duration 171 ms by bot id=7236027461
+2025-01-10 16:59:46,216 - INFO - Polling stopped
+2025-01-10 16:59:46,462 - INFO - Polling stopped for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
+2025-01-10 16:59:46,463 - INFO - Остановка бота
+2025-01-10 16:59:50,155 - INFO - Запуск бота
+2025-01-10 16:59:50,156 - INFO - Бот запускается
+2025-01-10 16:59:50,156 - INFO - Start polling
+2025-01-10 16:59:50,507 - INFO - Run polling for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
+2025-01-10 16:59:51,780 - INFO - Получена команда /start от пользователя 7934490498
+2025-01-10 16:59:52,220 - INFO - Update id=188274349 is handled. Duration 437 ms by bot id=7236027461
+2025-01-10 16:59:53,807 - INFO - Получен callback: get_data от пользователя 7934490498
+2025-01-10 16:59:54,030 - INFO - Update id=188274350 is handled. Duration 218 ms by bot id=7236027461
+2025-01-10 17:00:21,205 - INFO - Получен трек-код от пользователя 7934490498: YT8726562442979
+2025-01-10 17:00:24,409 - INFO - Update id=188274351 is handled. Duration 3203 ms by bot id=7236027461
+2025-01-10 17:00:27,224 - INFO - Получен callback: get_start от пользователя 7934490498
+2025-01-10 17:00:27,224 - INFO - Получена команда /start от пользователя 7236027461
+2025-01-10 17:00:27,489 - INFO - Update id=188274352 is handled. Duration 266 ms by bot id=7236027461
+2025-01-10 17:01:07,772 - INFO - Получен callback: get_data от пользователя 7934490498
+2025-01-10 17:01:08,031 - INFO - Update id=188274353 is handled. Duration 250 ms by bot id=7236027461
+2025-01-10 17:07:05,847 - INFO - Получена команда /start от пользователя 129241655
+2025-01-10 17:07:06,019 - INFO - Update id=188274354 is handled. Duration 171 ms by bot id=7236027461
+2025-01-10 17:07:07,296 - INFO - Получен callback: get_data от пользователя 129241655
+2025-01-10 17:07:07,518 - INFO - Update id=188274355 is handled. Duration 233 ms by bot id=7236027461
+2025-01-10 17:07:10,169 - INFO - Получен трек-код от пользователя 129241655: JT5339379739784
+2025-01-10 17:07:11,985 - INFO - Update id=188274356 is handled. Duration 1812 ms by bot id=7236027461
+2025-01-10 17:09:23,169 - INFO - Polling stopped
+2025-01-10 17:09:23,436 - INFO - Polling stopped for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
+2025-01-10 17:09:23,437 - INFO - Остановка бота
+2025-01-10 17:09:28,027 - INFO - Запуск бота
+2025-01-10 17:09:28,028 - INFO - Бот запускается
+2025-01-10 17:09:28,028 - INFO - Start polling
+2025-01-10 17:09:28,501 - INFO - Run polling for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
+2025-01-10 17:09:30,440 - INFO - Получен callback: get_data от пользователя 7934490498
+2025-01-10 17:09:30,859 - INFO - Update id=188274357 is handled. Duration 406 ms by bot id=7236027461
+2025-01-10 17:09:32,439 - INFO - Получен трек-код от пользователя 7934490498: YT8726562442979
+2025-01-10 17:09:34,373 - INFO - Update id=188274358 is handled. Duration 1937 ms by bot id=7236027461
+2025-01-10 17:13:19,980 - INFO - Получена команда /start от пользователя 129241655
+2025-01-10 17:13:20,253 - INFO - Update id=188274359 is handled. Duration 280 ms by bot id=7236027461
+2025-01-10 17:13:29,178 - INFO - Update id=188274360 is not handled. Duration 0 ms by bot id=7236027461
+2025-01-10 17:13:31,785 - INFO - Получен callback: get_data от пользователя 129241655
+2025-01-10 17:13:31,956 - INFO - Update id=188274361 is handled. Duration 171 ms by bot id=7236027461
+2025-01-10 17:13:34,815 - INFO - Получен трек-код от пользователя 129241655: JT5339379739784
+2025-01-10 17:14:16,049 - INFO - Запуск бота
+2025-01-10 17:14:16,050 - INFO - Бот запускается
+2025-01-10 17:14:16,051 - INFO - Start polling
+2025-01-10 17:14:16,417 - INFO - Run polling for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
+2025-01-10 17:14:16,544 - INFO - Получена команда /start от пользователя 129241655
+2025-01-10 17:14:16,546 - INFO - Получена команда /start от пользователя 129241655
+2025-01-10 17:14:16,985 - INFO - Update id=188274363 is handled. Duration 437 ms by bot id=7236027461
+2025-01-10 17:14:17,013 - INFO - Update id=188274364 is handled. Duration 467 ms by bot id=7236027461
+2025-01-10 17:14:17,236 - INFO - Получена команда /start от пользователя 7934490498
+2025-01-10 17:14:17,422 - INFO - Update id=188274365 is handled. Duration 171 ms by bot id=7236027461
+2025-01-10 17:14:58,592 - INFO - Получен callback: get_data от пользователя 129241655
+2025-01-10 17:14:58,721 - INFO - Update id=188274366 is handled. Duration 141 ms by bot id=7236027461
+2025-01-10 17:15:04,640 - INFO - Получен трек-код от пользователя 129241655: JT5339379739784
+2025-01-10 17:15:55,265 - INFO - Запуск бота
+2025-01-10 17:15:55,266 - INFO - Бот запускается
+2025-01-10 17:15:55,266 - INFO - Start polling
+2025-01-10 17:15:55,618 - INFO - Run polling for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
+2025-01-10 17:15:55,745 - INFO - Получена команда /start от пользователя 129241655
+2025-01-10 17:15:55,746 - INFO - Получена команда /start от пользователя 7934490498
+2025-01-10 17:15:55,747 - INFO - Update id=188274368 is not handled. Duration 0 ms by bot id=7236027461
+2025-01-10 17:15:56,228 - INFO - Update id=188274369 is handled. Duration 483 ms by bot id=7236027461
+2025-01-10 17:15:56,242 - INFO - Update id=188274370 is handled. Duration 500 ms by bot id=7236027461
+2025-01-10 17:16:01,908 - INFO - Получен callback: get_data от пользователя 7934490498
+2025-01-10 17:16:02,190 - INFO - Update id=188274371 is handled. Duration 296 ms by bot id=7236027461
+2025-01-10 17:16:07,566 - INFO - Получен трек-код от пользователя 7934490498: YT8726562442979
+2025-01-10 17:16:59,126 - INFO - Update id=188274372 is handled. Duration 51562 ms by bot id=7236027461
+2025-01-10 17:17:51,775 - INFO - Получен callback: get_start от пользователя 7934490498
+2025-01-10 17:17:51,775 - INFO - Получена команда /start от пользователя 7236027461
+2025-01-10 17:17:51,937 - INFO - Update id=188274373 is handled. Duration 156 ms by bot id=7236027461
+2025-01-10 17:17:52,950 - INFO - Получен callback: get_data от пользователя 7934490498
+2025-01-10 17:17:53,104 - INFO - Update id=188274374 is handled. Duration 156 ms by bot id=7236027461
+2025-01-10 17:18:14,551 - INFO - Получен callback: get_data от пользователя 129241655
+2025-01-10 17:18:14,752 - INFO - Update id=188274375 is handled. Duration 202 ms by bot id=7236027461
+2025-01-10 17:18:18,453 - INFO - Получен трек-код от пользователя 7934490498: 777266109371043
+2025-01-10 17:23:45,465 - INFO - Запуск бота
+2025-01-10 17:23:45,466 - INFO - Бот запускается
+2025-01-10 17:23:45,467 - INFO - Start polling
+2025-01-10 17:23:45,936 - INFO - Run polling for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
+2025-01-10 17:23:46,070 - INFO - Получена команда /start от пользователя 129241655
+2025-01-10 17:23:46,071 - INFO - Получена команда /start от пользователя 7934490498
+2025-01-10 17:23:46,072 - INFO - Получена команда /start от пользователя 7934490498
+2025-01-10 17:23:46,074 - INFO - Update id=188274377 is not handled. Duration 0 ms by bot id=7236027461
+2025-01-10 17:23:46,447 - INFO - Update id=188274384 is handled. Duration 375 ms by bot id=7236027461
+2025-01-10 17:23:46,483 - INFO - Update id=188274382 is handled. Duration 406 ms by bot id=7236027461
+2025-01-10 17:23:46,489 - INFO - Update id=188274383 is handled. Duration 422 ms by bot id=7236027461
+2025-01-10 17:23:47,928 - INFO - Получен callback: get_data от пользователя 7934490498
+2025-01-10 17:23:48,096 - INFO - Update id=188274385 is handled. Duration 171 ms by bot id=7236027461
+2025-01-10 17:23:51,920 - INFO - Получен трек-код от пользователя 7934490498: 777266109371043
+2025-01-10 17:23:54,841 - INFO - Update id=188274386 is handled. Duration 2921 ms by bot id=7236027461
+2025-01-10 17:24:26,282 - INFO - Получен callback: get_data от пользователя 129241655
+2025-01-10 17:24:26,430 - INFO - Update id=188274387 is handled. Duration 156 ms by bot id=7236027461
+2025-01-10 17:24:28,630 - INFO - Получен трек-код от пользователя 129241655: JT5339379739784
+2025-01-10 17:24:35,729 - INFO - Update id=188274388 is handled. Duration 7094 ms by bot id=7236027461
+2025-01-10 17:25:56,040 - INFO - Polling stopped
+2025-01-10 17:25:56,299 - INFO - Polling stopped for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
+2025-01-10 17:25:56,302 - INFO - Остановка бота
+2025-01-10 17:26:00,577 - INFO - Запуск бота
+2025-01-10 17:26:00,579 - INFO - Бот запускается
+2025-01-10 17:26:00,579 - INFO - Start polling
+2025-01-10 17:26:01,016 - INFO - Run polling for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
+2025-01-10 17:26:04,209 - INFO - Получена команда /start от пользователя 7934490498
+2025-01-10 17:26:04,572 - INFO - Update id=188274389 is handled. Duration 359 ms by bot id=7236027461
+2025-01-10 17:26:05,870 - INFO - Получен callback: get_data от пользователя 7934490498
+2025-01-10 17:26:06,024 - INFO - Update id=188274390 is handled. Duration 155 ms by bot id=7236027461
+2025-01-10 17:26:08,916 - INFO - Получен трек-код от пользователя 7934490498: 777266109371043
+2025-01-10 17:26:52,997 - INFO - Update id=188274391 is handled. Duration 44078 ms by bot id=7236027461
+2025-01-10 17:27:11,541 - INFO - Получен callback: get_start от пользователя 7934490498
+2025-01-10 17:27:11,541 - INFO - Получена команда /start от пользователя 7236027461
+2025-01-10 17:27:11,710 - INFO - Update id=188274392 is handled. Duration 171 ms by bot id=7236027461
+2025-01-10 17:27:20,594 - INFO - Получен callback: get_my_id от пользователя 7934490498
+2025-01-10 17:27:20,594 - INFO - Update id=188274393 is handled. Duration 0 ms by bot id=7236027461
+2025-01-10 17:27:22,307 - INFO - Получен callback: get_info от пользователя 7934490498
+2025-01-10 17:27:22,771 - INFO - Update id=188274394 is handled. Duration 468 ms by bot id=7236027461
+2025-01-10 17:28:59,489 - INFO - Polling stopped
+2025-01-10 17:28:59,752 - INFO - Polling stopped for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
+2025-01-10 17:28:59,752 - INFO - Остановка бота
+2025-01-10 17:29:03,921 - INFO - Запуск бота
+2025-01-10 17:29:03,922 - INFO - Бот запускается
+2025-01-10 17:29:03,922 - INFO - Start polling
+2025-01-10 17:29:04,282 - INFO - Run polling for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
+2025-01-10 17:29:04,412 - INFO - Получена команда /start от пользователя 7934490498
+2025-01-10 17:29:04,831 - INFO - Update id=188274395 is handled. Duration 421 ms by bot id=7236027461
+2025-01-10 17:29:06,131 - INFO - Получен callback: get_my_id от пользователя 7934490498
+2025-01-10 17:29:06,370 - INFO - Update id=188274396 is handled. Duration 235 ms by bot id=7236027461
+2025-01-10 17:29:26,842 - INFO - Polling stopped
+2025-01-10 17:29:27,092 - INFO - Polling stopped for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
+2025-01-10 17:29:27,093 - INFO - Остановка бота
+2025-01-10 17:29:31,937 - INFO - Запуск бота
+2025-01-10 17:29:31,938 - INFO - Бот запускается
+2025-01-10 17:29:31,938 - INFO - Start polling
+2025-01-10 17:29:32,286 - INFO - Run polling for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
+2025-01-10 17:29:32,419 - INFO - Получен callback: get_my_id от пользователя 7934490498
+2025-01-10 17:29:32,840 - INFO - Update id=188274397 is handled. Duration 421 ms by bot id=7236027461
+2025-01-10 17:29:36,290 - INFO - Получен callback: get_start от пользователя 7934490498
+2025-01-10 17:29:36,290 - INFO - Получена команда /start от пользователя 7236027461
+2025-01-10 17:29:36,425 - INFO - Update id=188274398 is handled. Duration 140 ms by bot id=7236027461
+2025-01-10 17:29:55,594 - INFO - Получен callback: get_data от пользователя 7934490498
+2025-01-10 17:29:55,750 - INFO - Update id=188274399 is handled. Duration 157 ms by bot id=7236027461
+2025-01-10 17:29:58,925 - INFO - Получен трек-код от пользователя 7934490498: 777266109371043
+2025-01-10 17:47:22,785 - INFO - Запуск бота
+2025-01-10 17:47:22,786 - INFO - Бот запускается
+2025-01-10 17:47:22,786 - INFO - Start polling
+2025-01-10 17:47:23,392 - INFO - Run polling for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
+2025-01-10 17:47:23,560 - INFO - Получена команда /start от пользователя 7934490498
+2025-01-10 17:47:23,561 - INFO - Получена команда /start от пользователя 7934490498
+2025-01-10 17:47:23,960 - INFO - Update id=188274402 is handled. Duration 405 ms by bot id=7236027461
+2025-01-10 17:47:23,977 - INFO - Update id=188274401 is handled. Duration 421 ms by bot id=7236027461
+2025-01-10 17:47:26,251 - INFO - Получен callback: get_data от пользователя 7934490498
+2025-01-10 17:47:26,386 - INFO - Update id=188274403 is handled. Duration 139 ms by bot id=7236027461
+2025-01-10 17:47:46,619 - INFO - Получен callback: get_data от пользователя 7934490498
+2025-01-10 17:47:46,790 - INFO - Update id=188274404 is handled. Duration 171 ms by bot id=7236027461
+2025-01-10 17:47:48,659 - INFO - Получен трек-код от пользователя 7934490498: YT8729351910882
+2025-01-10 17:47:57,597 - INFO - Update id=188274405 is handled. Duration 8937 ms by bot id=7236027461
+2025-01-10 18:05:52,365 - INFO - Получен callback: get_start от пользователя 7934490498
+2025-01-10 18:05:52,366 - INFO - Получена команда /start от пользователя 7236027461
+2025-01-10 18:05:52,505 - INFO - Update id=188274406 is handled. Duration 139 ms by bot id=7236027461
+2025-01-10 18:11:20,837 - INFO - Получен callback: get_info от пользователя 7934490498
+2025-01-10 18:11:21,282 - INFO - Update id=188274407 is handled. Duration 437 ms by bot id=7236027461
+2025-01-10 18:25:08,654 - INFO - Получена команда /start от пользователя 7934490498
+2025-01-10 18:25:09,023 - INFO - Update id=188274408 is handled. Duration 375 ms by bot id=7236027461
+2025-01-10 18:25:19,771 - INFO - Получен callback: get_my_id от пользователя 7934490498
+2025-01-10 18:25:19,916 - INFO - Update id=188274409 is handled. Duration 141 ms by bot id=7236027461
+2025-01-10 18:25:21,138 - INFO - Получен callback: get_start от пользователя 7934490498
+2025-01-10 18:25:21,138 - INFO - Получена команда /start от пользователя 7236027461
+2025-01-10 18:25:21,273 - INFO - Update id=188274410 is handled. Duration 141 ms by bot id=7236027461
+2025-01-10 18:45:43,868 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-01-10 18:45:43,868 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7236027461)
+2025-01-10 18:45:44,888 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+2025-01-10 18:45:44,888 - WARNING - Sleep for 1.348821 seconds and try again... (tryings = 1, bot id = 7236027461)
+2025-01-10 18:45:57,060 - INFO - Connection established (tryings = 2, bot id = 7236027461)
+2025-01-10 19:03:49,917 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-01-10 19:03:49,918 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7236027461)
+2025-01-10 19:03:50,933 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-01-10 19:03:50,933 - WARNING - Sleep for 1.327461 seconds and try again... (tryings = 1, bot id = 7236027461)
+2025-01-10 19:03:52,272 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-01-10 19:03:52,272 - WARNING - Sleep for 1.904856 seconds and try again... (tryings = 2, bot id = 7236027461)
+2025-01-10 19:04:04,663 - INFO - Connection established (tryings = 3, bot id = 7236027461)
+2025-01-10 19:06:00,752 - INFO - Polling stopped
+2025-01-10 19:06:01,018 - INFO - Polling stopped for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
+2025-01-10 19:06:01,020 - INFO - Остановка бота
+2025-01-11 14:27:16,247 - INFO - Запуск бота
+2025-01-11 14:27:16,252 - INFO - Бот запускается
+2025-01-11 14:27:16,252 - INFO - Start polling
+2025-01-11 14:27:16,744 - INFO - Run polling for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
+2025-01-11 14:27:16,883 - INFO - Получена команда /start от пользователя 129241655
+2025-01-11 14:27:17,276 - INFO - Update id=188274415 is handled. Duration 391 ms by bot id=7236027461
+2025-01-11 14:27:25,946 - INFO - Получена команда /start от пользователя 7934490498
+2025-01-11 14:27:26,140 - INFO - Update id=188274416 is handled. Duration 186 ms by bot id=7236027461
+2025-01-11 14:28:06,168 - INFO - Получен callback: get_data от пользователя 7934490498
+2025-01-11 14:28:06,349 - INFO - Update id=188274417 is handled. Duration 186 ms by bot id=7236027461
+2025-01-11 14:28:08,092 - INFO - Получен трек-код от пользователя 7934490498: YT8728675597416
+2025-01-11 14:28:11,592 - INFO - Update id=188274418 is handled. Duration 3500 ms by bot id=7236027461
+2025-01-11 14:28:19,459 - INFO - Получен callback: get_start от пользователя 7934490498
+2025-01-11 14:28:19,459 - INFO - Получена команда /start от пользователя 7236027461
+2025-01-11 14:28:19,587 - INFO - Update id=188274419 is handled. Duration 125 ms by bot id=7236027461
+2025-01-11 14:28:21,205 - INFO - Получен callback: get_data от пользователя 7934490498
+2025-01-11 14:28:21,384 - INFO - Update id=188274420 is handled. Duration 172 ms by bot id=7236027461
+2025-01-11 14:28:23,335 - INFO - Получен трек-код от пользователя 7934490498: YT8728675597416
+2025-01-11 14:28:25,493 - INFO - Update id=188274421 is handled. Duration 2157 ms by bot id=7236027461
+2025-01-11 14:28:30,908 - INFO - Polling stopped
+2025-01-11 14:28:31,186 - INFO - Polling stopped for bot @GlobalTrageBot id=7236027461 - 'Global Trade BOT'
+2025-01-11 14:28:31,189 - INFO - Остановка бота
