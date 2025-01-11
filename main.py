@@ -1,12 +1,15 @@
 import asyncio
 import datetime
 import logging
+import ssl
+import sys
 from os import getenv
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import CommandStart
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import StatesGroup, State
 from aiogram.enums import ParseMode
+from aiogram.types import FSInputFile
 from aiogram.client.bot import DefaultBotProperties
 from aiogram.webhook.aiohttp_server import SimpleRequestHandler, setup_application
 from aiohttp import web
@@ -25,14 +28,39 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
+SELF_SSL = False
 
-PROJECT_NAME = getenv("PROJECT_NAME", "my_bot")
-DOMAIN_NAME = getenv("DOMAIN_NAME", "example.com")
-WEBHOOK_PATH = f"/{PROJECT_NAME}"
-WEBHOOK_URL = f"https://{DOMAIN_NAME}{WEBHOOK_PATH}"
+# Path to webhook route, on which Telegram will send requests
+WEBHOOK_PATH = "/" + getenv("PROJECT_NAME")
 
-WEB_SERVER_HOST = "0.0.0.0"  # Подключение ко всем интерфейсам
-WEB_SERVER_PORT = int(getenv("PORT", 8080))  
+DOMAIN = getenv("DOMAIN_IP") if SELF_SSL else getenv("DOMAIN_NAME")
+EXTERNAL_PORT = 8443
+
+# Base URL for webhook will be used to generate webhook URL for Telegram,
+# in this example it is used public DNS with HTTPS support
+# BASE_WEBHOOK_URL = "https://aiogram.dev/"
+BASE_WEBHOOK_URL = "https://" + DOMAIN + ":" + str(EXTERNAL_PORT)
+
+if SELF_SSL:
+    WEB_SERVER_HOST = DOMAIN
+    WEB_SERVER_PORT = EXTERNAL_PORT
+else:
+    # Webserver settings
+    # bind localhost only to prevent any external access
+    WEB_SERVER_HOST = "127.0.0.1"
+    # Port for incoming request from reverse proxy. Should be any available port
+    WEB_SERVER_PORT = 8080
+
+# Secret key to validate requests from Telegram (optional)
+WEBHOOK_SECRET = "my-secret"
+
+# ========= For self-signed certificate =======
+# Path to SSL certificate and private key for self-signed certificate.
+# WEBHOOK_SSL_CERT = "/path/to/cert.pem"
+# WEBHOOK_SSL_PRIV = "/path/to/private.key"
+if SELF_SSL:
+    WEBHOOK_SSL_CERT = "../SSL/" + DOMAIN + ".self.crt"
+    WEBHOOK_SSL_PRIV = "../SSL/" + DOMAIN + ".self.key"
 
 
 BOT_TOKEN = config("BOT_TOKEN")
@@ -120,39 +148,62 @@ async def handle_order_id(message: types.Message, state: FSMContext):
         await message.answer_video("BAACAgIAAxkBAAIBNmd5WL-Z0oCf9dyQXDIaRdAUeRmlAALNWwACEGzRS_p3atO1dX3KNgQ")
 
 
-async def on_startup(bot: Bot):
-    """
-    Установка вебхука при старте.
-    """
-    logger.info("Установка вебхука")
-    await bot.set_webhook(WEBHOOK_URL)
+async def on_startup(bot: Bot) -> None:
+    if SELF_SSL:
+        # In case when you have a self-signed SSL certificate, you need to send the certificate
+        # itself to Telegram servers for validation purposes
+        # (see https://core.telegram.org/bots/self-signed)
+        # But if you have a valid SSL certificate, you SHOULD NOT send it to Telegram servers.
+        await bot.set_webhook(
+            f"{BASE_WEBHOOK_URL}{WEBHOOK_PATH}",
+            certificate=FSInputFile(WEBHOOK_SSL_CERT),
+            secret_token=WEBHOOK_SECRET,
+        )
+    else:
+        await bot.set_webhook(f"{BASE_WEBHOOK_URL}{WEBHOOK_PATH}", secret_token=WEBHOOK_SECRET)
 
-async def on_shutdown(bot: Bot):
+
+# === (Added) Register shutdown hook to initialize webhook ===
+async def on_shutdown(bot: Bot) -> None:
     """
-    Удаление вебхука при остановке.
+    Graceful shutdown. This method is recommended by aiohttp docs.
     """
-    logger.info("Удаление вебхука")
+    # Remove webhook.
     await bot.delete_webhook()
 
 
-async def main():
+def main():
     dp.startup.register(on_startup)
     dp.shutdown.register(on_shutdown)
 
-    # Настройка приложения aiohttp
     app = web.Application()
-    SimpleRequestHandler(dispatcher=dp, bot=bot).register(app, path=WEBHOOK_PATH)
+
+    # Create an instance of request handler,
+    # aiogram has few implementations for different cases of usage
+    # In this example we use SimpleRequestHandler which is designed to handle simple cases
+    webhook_requests_handler = SimpleRequestHandler(
+        dispatcher=dp,
+        bot=bot,
+        secret_token=WEBHOOK_SECRET,
+    )
+    # Register webhook handler on application
+    webhook_requests_handler.register(app, path=WEBHOOK_PATH)
+
+    # Mount dispatcher startup and shutdown hooks to aiohttp application
     setup_application(app, dp, bot=bot)
 
-    logger.info(f"Сервер запущен на {WEB_SERVER_HOST}:{WEB_SERVER_PORT}")
-    web.run_app(app, host=WEB_SERVER_HOST, port=WEB_SERVER_PORT)
+    if SELF_SSL:  # ==== For self-signed certificate ====
+        # Generate SSL context
+        context = ssl.SSLContext(ssl.PROTOCOL_TLSv1_2)
+        context.load_cert_chain(WEBHOOK_SSL_CERT, WEBHOOK_SSL_PRIV)
+
+        # And finally start webserver
+        web.run_app(app, host=WEB_SERVER_HOST, port=WEB_SERVER_PORT, ssl_context=context)
+    else:
+        # And finally start webserver
+        web.run_app(app, host=WEB_SERVER_HOST, port=WEB_SERVER_PORT)
     
 
 if __name__ == "__main__":
-    try:
-        logger.info("Запуск бота")
-        asyncio.run(main())
-    except KeyboardInterrupt:
-        logger.info("Остановка бота")
-    except Exception as e:
-        logger.error(f"Критическая ошибка: {e}", exc_info=True)
+    logging.basicConfig(level=logging.INFO, stream=sys.stdout)
+    main()
